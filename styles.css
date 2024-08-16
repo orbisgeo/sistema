@@ -1,0 +1,70 @@
+/* Paleta de Cores Inspirada no Planeta Terra */
+:root {
+    --cor-verde: #4CAF50;
+    --cor-azul: #007BFF;
+    --cor-marrom: #6D4C41;
+    --cor-cinza-claro: #F4F4F4;
+    --cor-cinza-escuro: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-cinza-claro);
+    color: var(--cor-cinza-escuro);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--cor-azul);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: var(--cor-verde);
+    margin-bottom: 10px;
+}
+
+section {
+    background-color: white;
+    border: 1px solid var(--cor-marrom);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: var(--cor-verde);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: var(--cor-marrom);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--cor-azul);
+    color: white;
+}
